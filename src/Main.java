@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "Text.txt";
+        String filePath = "Text.txt"; // filePath = "C:\Users\gqous\IdeaProjects\FileWriter"; this would work too
         String fileContent = """
                 I am Gaoussou
                 I want to master Java
