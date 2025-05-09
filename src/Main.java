@@ -9,9 +9,10 @@ public class Main {
                 I want to master Java
                 And become an App Developer!!!
                 """;
+        String initials = "GD";
         try (FileWriter file = new FileWriter(filePath)){
             file.write(fileContent);
-            file.append("GD"); // to add to the file without deleting the already written contents
+            file.append(initials); // to add to the file without deleting the already written contents
             System.out.println("File has been written");
         } catch (IOException e) {
             System.out.println("File has not been written");
